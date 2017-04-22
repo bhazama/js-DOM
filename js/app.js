@@ -27,6 +27,7 @@ idAlias3.innerHTML = "Concatenation";
 
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
 var clProfile0 = document.getElementsByClassName("profile");
+
 clProfile0[0].innerHTML = "Lorem ipsizzle dolor dizzle amizzle, hizzle adipiscing elizzle. Break it down yippiyo , shut the shizzle up volutpat, suscipit shiz, gravida vizzle, arcu. Shizznit doggy bow wow wow. Sizzle fo. Doggy izzle dolor dapibizzle turpis tempizzle crunk. Maurizzle mah nizzle nibh et turpis. Crunk izzle owned. Pellentesque sizzle rhoncizzle shizznit. Yo its fo rizzle habitasse go to hizzle dictumst. Get down get down dapibizzle. Bow wow wow tellus , shiz dang, ac, dope vitae, nunc. Dope suscipizzle. Integizzle we gonna chung velizzle sizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle.";
 
 
@@ -65,6 +66,43 @@ aliasBox.appendChild(newDiv2);
 //Final Boss
 /*8. Create your own profile.*/
 
-var newImg = document.getElementsByClassName("block3 col-sm-4");
-newImg.innerHTML = "http://www.logodesignlove.com/images/negative/wwf-logo-design.jpg";
-block3 col-sm-4[0].appendChild(newImg);
+var newImg = document.getElementsByClassName("block3");
+newImg[2].id = "myPic";
+console.log(newImg);
+newImg[2].innerHTML = "<img src=https://yt3.ggpht.com/-v0soe-ievYE/AAAAAAAAAAI/AAAAAAAAAAA/OixOH_h84Po/s900-c-k-no-mo-rj-c0xffffff/photo.jpg>";
+
+
+
+
+var myName = document.createElement("div");
+myName.id = "name9";
+myName.innerHTML = "Brendan Hazama";
+myPic.appendChild(myName);
+
+
+
+
+var myPosition = document.createElement("div");
+myPosition.id = "position9";
+myPosition.innerHTML = "Script Kiddie";
+myPic.appendChild(myPosition);
+
+
+var myAlias = document.createElement("div");
+myAlias.id = "alias9";
+myAlias.innerHTML = "Brendan";
+myPic.appendChild(myAlias);
+
+var myBio = document.createElement("div");
+myBio.id = "bio9";
+myBio.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed massa felis, feugiat non malesuada at, porta non neque.";
+myPic.appendChild(myBio);
+
+
+
+
+
+
+
+
+
